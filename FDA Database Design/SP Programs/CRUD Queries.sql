@@ -76,7 +76,7 @@ END;
 GO
 
 -- To Update
-EXEC Restaurant.UpdateRestaurantStatus @RestaurantID = 1, @IsOpen = 0;
+EXEC Restaurant.RemoveRestaurant @RestaurantID = 1;
 
 -------------------------------------------+++-----------------------------------------------
 
